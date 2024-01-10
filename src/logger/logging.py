@@ -14,6 +14,7 @@ LOG_FILEPATH=os.path.join(log_path,LOG_FILE)
 
 logging.basicConfig(level=logging.INFO, 
                     filename=LOG_FILEPATH,
+                    #asctime = current time
                     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s"
                     
 )
