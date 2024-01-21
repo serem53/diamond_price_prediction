@@ -1,4 +1,3 @@
-#python setup.py
 from setuptools import find_packages,setup
 from typing import List
 
@@ -18,8 +17,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='DimondPricePrediction',
     version='0.0.1',
-    author='Trevor Serem',
-    author_email='trevorserem53@gmail.com',
+    author='sunny savita',
+    author_email='sunny.savita@ineuron.ai',
     install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
 )
